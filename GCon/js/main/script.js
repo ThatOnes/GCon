@@ -1,10 +1,22 @@
+window.addEventListener("DOMContentLoaded", function () {
+  const searchInput = document.querySelector("input[placeholder='Search servers...']");
+  const panel = document.getElementById("contact-panel");
 
-    document.addEventListener("click", function (e) {
-        const searchInput = document.querySelector("input[placeholder='Search...']");
-        const panel = document.getElementById("contact-panel");
+  if (!searchInput || !panel) return;
 
-        // Jika klik di luar input dan panel, sembunyikan panel
-        if (!searchInput.contains(e.target) && !panel.contains(e.target)) {
-            panel.classList.add("hidden");
-        }
-    });
+  // Saat klik input, buka panel
+  searchInput.addEventListener("click", function (e) {
+    panel.classList.remove("hidden");
+    e.stopPropagation();
+  });
+
+  // Agar klik di panel tidak menutup
+  panel.addEventListener("click", function (e) {
+    e.stopPropagation();
+  });
+
+  // Klik di luar panel dan input = tutup panel
+  document.addEventListener("click", function () {
+    panel.classList.add("hidden");
+  });
+});

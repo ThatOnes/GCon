@@ -1,0 +1,8 @@
+.curve-separator {
+  background-color: #2C0E4A;
+  height: 100px;
+  width: 100%;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  margin-bottom: -50px;
+}
