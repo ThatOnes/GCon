@@ -111,5 +111,144 @@
         </div>
       </div>
 
+      <div class="bg-white py-24 sm:py-10">
+        <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+          <h2 class="text-center text-base/7 font-semibold text-indigo-600">Deploy faster</h2>
+          <p class="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl">Everything you need to deploy your app</p>
+          <div class="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
+            <div class="relative lg:row-span-2">
+              <div class="absolute inset-px rounded-lg bg-white lg:rounded-l-4xl"></div>
+              <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
+                <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
+                  <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Mobile friendly</p>
+                  <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
+                </div>
+                <div class="@container relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
+                  <div class="absolute inset-x-10 top-10 bottom-0 overflow-hidden rounded-t-[12cqw] border-x-[2cqw] border-t-[1cqw] border-purple-900 bg-white shadow-2xl">
+                    <img src="../image/others/1.png" alt="" class="size-full object-cover object-top" />
+                  </div>
+                </div>
+              </div>
+              <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5 lg:rounded-l-4xl"></div>
+            </div>
+            <div class="relative max-lg:row-start-1">
+              <div class="absolute inset-px rounded-lg bg-white max-lg:rounded-t-4xl"></div>
+              <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+                <div class="px-8 pt-8 sm:px-10 sm:pt-10">
+                  <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Performance</p>
+                  <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit maiores impedit.</p>
+                </div>
+                <div class="flex flex-1 items-center justify-center px-8 max-lg:pt-10 max-lg:pb-12 sm:px-10 lg:pb-2">
+                  <img src="https://tailwindcss.com/plus-assets/img/component-images/bento-03-performance.png" alt="" class="w-full max-lg:max-w-xs" />
+                </div>
+              </div>
+              <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5 max-lg:rounded-t-4xl"></div>
+            </div>
+            <div class="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
+              <div class="absolute inset-px rounded-lg bg-white"></div>
+              <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
+                <div class="px-8 pt-8 sm:px-10 sm:pt-10">
+                  <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Security</p>
+                  <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi.</p>
+                </div>
+                <div class="@container flex flex-1 items-center max-lg:py-6 lg:pb-2">
+                  <img src="https://tailwindcss.com/plus-assets/img/component-images/bento-03-security.png" alt="" class="h-[min(152px,40cqw)] object-cover" />
+                </div>
+              </div>
+              <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5"></div>
+            </div>
+            <!-- GANTI bagian Powerful APIs dengan ini -->
+            <div class="relative lg:row-span-2">
+              <div class="absolute inset-px rounded-lg bg-white lg:rounded-l-4xl"></div>
+              <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
+                <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
+                  <p class="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Server Library Games</p>
+                  <p class="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
+                </div>
+                <div class="@container relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
+                  <div class="absolute inset-x-10 top-10 bottom-0 overflow-hidden border-x-[2cqw] border-t-[2cqw] border-purple-900 bg-white shadow-2xl">
+                    <img src="../image/others/2.jpg" alt="" class="size-full object-cover object-top" />
+                  </div>
+                </div>
+              </div>
+              <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5 lg:rounded-l-4xl"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="bg-white text-gray-600 py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+      <!-- Logo dan deskripsi -->
+      <div class="md:col-span-1">
+        <div class="flex items-center mb-4">
+          <!-- Logo -->
+          <svg class="w-8 h-8 text-indigo-600" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 0C5.37258 0 0 5.37258 0 12s5.37258 12 12 12 12-5.37258 12-12S18.6274 0 12 0z" />
+          </svg>
+        </div>
+        <p class="text-sm">
+          Making the world a better place through <br />
+          constructing elegant hierarchies.
+        </p>
+        <!-- Social Media Icons -->
+        <div class="flex space-x-4 mt-4">
+          <a href="#" class="text-gray-500 hover:text-gray-700"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-gray-500 hover:text-gray-700"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-gray-500 hover:text-gray-700"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" class="text-gray-500 hover:text-gray-700"><i class="fab fa-github"></i></a>
+          <a href="#" class="text-gray-500 hover:text-gray-700"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Section Links -->
+      <div>
+        <h3 class="text-sm font-semibold text-gray-900 mb-4">Solutions</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:underline">Marketing</a></li>
+          <li><a href="#" class="hover:underline">Analytics</a></li>
+          <li><a href="#" class="hover:underline">Automation</a></li>
+          <li><a href="#" class="hover:underline">Commerce</a></li>
+          <li><a href="#" class="hover:underline">Insights</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-sm font-semibold text-gray-900 mb-4">Support</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:underline">Submit ticket</a></li>
+          <li><a href="#" class="hover:underline">Documentation</a></li>
+          <li><a href="#" class="hover:underline">Guides</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-sm font-semibold text-gray-900 mb-4">Company</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:underline">About</a></li>
+          <li><a href="#" class="hover:underline">Blog</a></li>
+          <li><a href="#" class="hover:underline">Jobs</a></li>
+          <li><a href="#" class="hover:underline">Press</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-sm font-semibold text-gray-900 mb-4">Legal</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:underline">Terms of service</a></li>
+          <li><a href="#" class="hover:underline">Privacy policy</a></li>
+          <li><a href="#" class="hover:underline">License</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Garis pemisah -->
+    <div class="mt-10 border-t border-gray-200 pt-6 text-sm text-gray-400 text-center">
+      &copy; 2025 Your Company. All rights reserved.
+    </div>
+  </div>
+</footer>   
 </body>
 </html>
